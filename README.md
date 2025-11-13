@@ -1,10 +1,51 @@
-# GitHub Codespaces ♥️ React
+# Built with GitHub Codespaces ♥️ React
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+### **Beginner Level (Core Fundamentals)**
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+**1. Counter Application**
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+- useState hook implementation - track numeric state
+- Event handlers - increment, decrement, reset buttons
+- Conditional rendering - display different UI based on count
+- Basic component structure - single component app
+
+**2. Todo List**
+
+- useState for task management - add, delete, complete tasks
+- Array manipulation - map, filter operations
+- Controlled inputs - form handling
+- Local storage integration - persist data across sessions
+- Conditional styling - strike-through completed items
+
+**3. Digital Clock/Timer**
+
+- useEffect with cleanup - setInterval, clearInterval
+- Date object manipulation - format time display
+- Component lifecycle understanding - mount/unmount
+- Real-time updates - re-render on state change
+
+**4. Weather App**
+
+- Fetch API integration - OpenWeatherMap or similar
+- Async/await pattern - handle API calls
+- Loading states - show spinner during fetch
+- Error handling - display error messages
+- Environment variables - secure API keys
+
+**5. Calculator**
+
+- Complex state management - current operation, stored values
+- Event handling - button clicks
+- Mathematical operations - basic arithmetic
+- Edge case handling - division by zero, decimal points
+
+**6. Quiz Application**
+
+- Multiple components - Question, Answer, Score
+- State lifting - pass data between components
+- Conditional rendering - show questions then results
+- Score tracking - calculate final score
+- Array iteration - loop through questions
 
 This project was bootstrapped for you with [Vite](https://vitejs.dev/).
 
@@ -21,50 +62,3 @@ Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Bro
 
 The page will reload automatically when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
