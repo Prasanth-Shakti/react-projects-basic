@@ -1,11 +1,11 @@
 
 import './App.css';
-import Clock from './DigitalClock/Clock';
+import Weather from './Weather/Weather';
 
 function App() {
   return (
     <div>
-      <Clock />
+      <Weather />
     </div>
   )
 
