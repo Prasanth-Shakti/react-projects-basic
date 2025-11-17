@@ -26,7 +26,7 @@
 
 **4. Weather App**
 
-- Fetch API integration - OpenWeatherMap or similar
+- Fetch API integration - OpenWeatherMap 
 - Async/await pattern - handle API calls
 - Loading states - show spinner during fetch
 - Error handling - display error messages
